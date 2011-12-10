@@ -17,6 +17,15 @@
 <script src="js/twitter.js"></script>
 <!--end of twitter feed javascript-->
 
+
+<!--javascript for lightbox-->
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+		$(".gallery:second a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'facebook',slideshow:3000, autoplay_slideshow: false});
+	});
+</script>
+<!--end of javascript for lightbox-->
+
 </head>
 
 <body>
@@ -86,16 +95,16 @@
 						<li><a href="week2.html">Week Two</a></li>
 						<li><a href="week3.html">Week Three</a></li>
 						<li><a href="week4.html">Week Four</a></li>
-						<!--<li><a href="week5.html">Week Five</a></li>
+						<li><a href="week5.html">Week Five</a></li>
 						<li><a href="week6.html">Week Six</a></li>
-						<li><a href="week7.html">Week Seven</a></li>
+						<li class="noMaterials"><strong>Week Seven - Mid-Term Exam</strong></li>
 						<li><a href="week8.html">Week Eight</a></li>
 						<li><a href="week9.html">Week Nine</a></li>
 						<li><a href="week10.html">Week Ten</a></li>
 						<li><a href="week11.html">Week Eleven</a></li>
 						<li><a href="week12.html">Week Twelve</a></li>
 						<li><a href="week13.html">Week Thirteen</a></li>
-						<li><a href="week14.html">Week Fourteen</a></li>-->
+						<!--<li><a href="week14.html">Week Fourteen</a></li>-->
 					</ul>
 					
 				</div>
@@ -129,21 +138,23 @@
 				
 			<div class="promoWrapper">
 			
-				<ul class="promoFirst">
+				<ul class="promoFirst gallery">
 					<h1>Cheat Sheets</h1>
 					<li><a href="images/CheatSheets/html-cheat-sheet-v1.pdf" target="_blank">HTML Tags</a></li>
 					<li><a href="images/CheatSheets/html5-cheat-sheet.pdf" target="_blank">HTML5 Tags</a></li>
 					<li><a href="images/CheatSheets/css-cheat-sheet-v2.pdf" target="_blank">CSS Tags</a></li>
 					<li><a href="images/CheatSheets/Periodic-Table-of-SEO.pdf" target="_blank">Periodic Table of SEO Ranking Factors</a></li>
-					<!--<li><a href="images/CheatSheets/javascript-cheat-sheet-v1.pdf" target="_blank">Javascript Tags</a></li>-->
+        			<li><a href='images/CheatSheets/web-safe-fonts.png' rel='prettyPhoto[cheatSheets]' title='Web Safe Fonts'>Web Safe Fonts</a></li>
+					
+					<!--<li><a href="http://gbtech.files.wordpress.com/2007/06/web-safe-fonts.png" target="_blank">Javascript Tags</a></li>-->
 				</ul>
 				
 				<ul>
 					<h1>Applications</h1>
 					<li><a href="http://spin.mohawkcollege.ca/graphicarts/apps_resource/fetch_56.zip" target="_blank">FTP - Fetch</a></li>
 					<li><a href="http://spin.mohawkcollege.ca/graphicarts/apps_resource/TextWrangler_31.dmg" target="_blank">Web Editor - TextWrangler</a></li>
-					
-					
+					<li><a href="http://panic.com/coda/" target="_blank">Web Editor - Coda</a></li>
+					<li><a href="http://macrabbit.com/espresso/" target="_blank">Web Editor - Espresso</a></li>
 				</ul>
 				
 				<ul>

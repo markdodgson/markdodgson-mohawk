@@ -181,6 +181,9 @@ h2 {
 	background-repeat: no-repeat;
 	background-position: 95%;
 }
+.columnR ul.weekButtons li.noMaterials {
+	padding: 4px 0 4px 10px;
+}
 .columnR ul.weekButtons li a:hover {
 	color: #f78320;
 }
